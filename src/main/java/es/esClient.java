@@ -16,8 +16,8 @@ public class esClient {
 		
 
             //设置集群名称
-            Settings settings1 = Settings.builder().put("cluster.name", "my-elasticsearch")
-            									.put("client.transport.sniff", true).build();
+            //Settings settings1 = Settings.builder().put("cluster.name", "my-elasticsearch")
+            									//.put("client.transport.sniff", true).build();
             //创建client
            
 			TransportClient client = new PreBuiltTransportClient(Settings.EMPTY)
